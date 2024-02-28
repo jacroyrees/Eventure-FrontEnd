@@ -2,7 +2,6 @@ import { Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 
-
 const Home = lazy(() => import('./views/Home'))
 const About = lazy(() => import('./views/About'))
 
